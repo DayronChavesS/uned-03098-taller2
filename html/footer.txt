@@ -1,0 +1,83 @@
+<footer>
+    <div class="footer-row">
+
+        <div class="footer-column">
+            <div class="petpretty-logo">
+                <svg preserveAspectRatio="xMidYMid meet" height="70%" width="70%" viewBox="0 0 393 456">
+                    <image width="393px" height="456px" href="/assets/svg/logo.svg" />
+                </svg>
+            </div>
+            <p class="lema">Pequeños Atuendos. <br/> Grandes Sonrisas.</p>
+        </div>
+
+        <div class="footer-column-border">
+            <h6>Empresa</h6>
+            <ul>
+                <li><a href="/html/about.html">Acerca de</a></li>
+                <li><a href="/html/blog.html">Blog</a></li>
+                <li><a href="/html/faq.html">Preguntas frecuentes</a></li>
+                <li><a href="/html/legal.html">Legal</a></li>
+                <li><a href="/html/contact.html">Contáctanos</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column-border">
+            <h6>Tienda</h6>
+            <ul>
+                <li><a href="/html/catalog.html">Catalogo</a></li>
+                <li><a href="/html/estimate.html">Cotizacion</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column-border">
+            <h6>Cuenta</h6>
+            <ul>
+                <li><a href="/html/admin/admin-screen.html">Administrador</a></li>
+                <li><a href="/html/costumer/costumer-screen.html">Comprador</a></li>
+                <li><a href="/html/designer/designer-screen.html">Diseñador</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="lower-footer-row">
+        <div class="lower-footer-column">
+            <a>Copyright © 2024, PetPretty, Inc.</a>
+        </div>
+
+        <div class="lower-footer-column">
+            <a href="/html/legal.html">Terminos y Condiciones</a>
+        </div>
+
+        <div class="lower-footer-column">
+            <a href="/html/legal.html">Politica de Privacidad</a>
+        </div>
+
+        <div class="social-media-column">
+            <a href="#" class="svg">
+                <object data="facebook.svg" type="image/svg+xml">
+                    <image src="/assets/svg/facebook.svg" />
+                </object>
+            </a>
+            <a href="#" class="svg">
+                <object data="x.svg" type="image/svg+xml">
+                    <image src="/assets/svg/x.svg" />
+                </object>
+            </a>
+            <a href="#" class="svg">
+                <object data="instagram.svg" type="image/svg+xml">
+                    <image src="/assets/svg/instagram.svg" />
+                </object>
+            </a>
+            <a href="#" class="svg">
+                <object data="youtube.svg" type="image/svg+xml">
+                    <image src="/assets/svg/youtube.svg" />
+                </object>
+            </a>
+            <a href="#" class="svg">
+                <object data="tiktok.svg" type="image/svg+xml">
+                    <image src="/assets/svg/tiktok.svg" />
+                </object>
+            </a>
+        </div>
+    </div>
+</footer>

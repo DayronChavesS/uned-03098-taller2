@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="15.373824"
+   viewBox="0 -960 744.41913 737.94356"
+   width="15.508732"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="rate-half.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050" />
+  <path
+     d="m 370.37396,-936.00058 1.49778,572.92402 c 56.28149,27.53061 111.85237,119.23999 196.19859,105.0062 81.18906,-38.97634 -10.75764,-167.46914 -8.18106,-242.17659 143.88046,-96.65596 215.20793,-197.49933 93.75449,-221.33438 l -160.57091,-4.98328 c -41.70196,-30.83443 -9.90472,-185.05435 -122.69889,-209.43597 z m 2.83562,576.8831 -133,100 c -12.66667,9.33333 -25.83333,13.66667 -39.5,13 -13.66667,-0.66667 -25.83333,-4.66667 -36.5,-12 -10.66667,-6.66667 -18.33333,-16.16667 -23,-28.5 -4.66667,-12.33333 -5,-26.16667 -1,-41.5 l 52,-166 -143.000001,-116 c -12,-10 -19.66667,-21.16667 -23,-33.5 -3.33333,-12.33333 -3,-24.5 1,-36.5 4.66667,-12.66667 12,-23.16667 22,-31.5 10,-8.33333 23,-12.5 39,-12.5 H 256.20958 l 55,-165 c 4,-16 11.83333,-27.5 23.5,-34.5 11.66667,-7 24.16667,-10.5 37.5,-10.5 13.33333,0 25.83333,3.5 37.5,10.5 11.66667,7 19.5,18.5 23.5,34.5 l 55,165 h 168 c 16,0 29,4.16667 39,12.5 10,8.33333 17.33333,18.83333 22,31.5 4,12 4.33333,24.16667 1,36.5 -3.33333,12.33333 -11,23.5 -23,33.5 l -143,116 52,165 c 4,15.33333 3.66667,29 -1,41 -4.66667,12 -12.33333,21.66667 -23,29 -10.66667,8 -22.66667,12.33333 -36,13 -13.33333,0.66667 -26.33333,-4 -39,-14 z"
+     id="path1"
+     style="fill:#ff9700;fill-opacity:1;stroke:#cf5e12;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="cccccccccscscccscssccsssccsscscccscscc" />
+</svg>

@@ -1,0 +1,235 @@
+ /*BREADCRUMB*/
+
+ ul.breadcrumb {
+    padding: 1vw 3vw;
+    margin: 1vw 3vw;
+    border-radius: 3vw;
+    list-style: none;
+    background-color: #7b007c;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 1.2vw;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color: #fdfdfd;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  } 
+
+  /*PRODUCT GENERAL INFO*/
+
+.product-row
+{
+    margin: 1vw 3vw 1vw 3vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.product-row > div:first-child{
+    width: 35%;
+}
+
+.product-row > div:last-child{
+    background-color: #feffc3;
+    border-color: #edf880;
+    width: 18%;
+}
+
+.product-row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.product-column{
+
+    background-color: #ffdebd;
+    border: 0.2vw solid;
+    border-radius: 2vw;
+    border-color: #f7bd73;
+    overflow: hidden;
+
+    width: 40%;
+    min-width: 200px;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: linear-gradient(0.25turn, #ffffff, #eaeaea);    
+    height: 100%;
+}
+
+.product-image > svg {
+    width: 70%;
+    height: 70%;
+}
+
+/*STARS*/
+
+.product-stars{
+    display: flex;
+    align-items:flex-start;
+}
+
+.product-stars > svg{
+    width: 2vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 1vw;
+}
+
+/*TITULO*/
+
+.product-title{
+    font-size: 3vw;
+    font-family: "Tovari Sans";
+    src: url("assets/fonts/TovariSans.ttf");
+    font-weight: bolder;
+}
+
+.product-title p {
+    margin: 0px 0px;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+/*AUTOR*/
+.product-autor{
+    font-size: 1vw;
+}
+
+.product-autor p{
+    margin: 0px 0px;
+    margin-left: 1vw;
+}
+
+
+/*PRECIO*/
+.product-price{
+    font-size: 3vw;
+    font-weight: bolder;
+    margin-left: 1vw;
+    margin-top:5vh;
+}
+
+.product-price p {
+    margin: 0px 0px;
+}
+
+
+
+/*AÑADIR AL CARRITO*/
+
+form{
+    text-align: center;
+}
+
+form>input[type=number]{
+    margin-top: 10%;
+}
+
+form>input[type=submit] {
+    width: 80%;
+    height: auto;
+
+    background-color: #f7bd73;
+    color: #454545;
+
+    border-radius: 1vw;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+    margin-top: 5vw;
+    text-align: center;
+    font-weight: bold;
+
+    cursor: pointer;
+  }
+
+  form>input[type=submit]:hover {
+    background-color: #ffff8c;
+  }
+
+  input[type=submit][value] {
+    font-size: 1.5vw;
+    font-family: "Tovari Sans";
+    src: url("assets/fonts/TovariSans.ttf");
+    text-transform: uppercase;
+  }
+
+  /*DESCRIPTION*/
+
+  .product-details,
+  .product-instructions{
+    margin: 1vw 3vw 2vw 3vw;
+  }
+  
+  .product-description{
+    margin: 1vw 3vw 2vw 3vw;
+    padding: 3vh 3vh 3vh 3vh;
+    background-color: white;
+    border-color: #e4e4e4;
+    border-radius: 1vh;
+  }
+
+  summary {
+    border: 4px solid transparent;
+    border-radius: 1vh;
+    outline: none;
+    padding: 1vw 1vw 1vw 6vw;
+    display: block;
+    background: #e4e4e4;
+    color: rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+    &:focus {
+        border-color: black;
+    }
+  }
+
+  details {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background: white;
+  }
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #000000;
+    position: absolute;
+    top: 40%;
+    left: 3vw;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+  }

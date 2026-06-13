@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Iniciar Sesion | PetPretty</title>
+    <link rel="icon" href="/assets/icons/icon.svg" type=”image/svg+xml”>
+    <meta name="language" content="es-CR" />
+
+    <meta name="keywords" content="tienda" />
+    <meta name="author" content="Dayron Antony Chaves Sandoval" />
+    <meta name="description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="Distribution" content="Global" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="revisit-after" content="7 days" />
+
+    <meta property="og:locale" content="es-CR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PetPretty">
+    <meta property="og:description" content="Tienda de Mascotas">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:site_name" content="example.com">
+    <meta property="article:published_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="og:image" content="https://example.com/image/image.png">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="600">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tienda PetPretty" />
+    <meta name="twitter:description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="twitter:site" content="@example" />
+    <meta name="twitter:image" content="https://example.com/image/image.png" />
+    <meta name="twitter:creator" content="@example" />
+
+
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
+    <link rel="stylesheet" href="/assets/styles/header.css" />
+    <link rel="stylesheet" href="/assets/styles/product.css" />
+    <link rel="stylesheet" href="/assets/styles/modal.css" />
+
+    <script src="/assets/scripts/main.js"></script>
+    <script src="/assets/scripts/header-footer.js"></script>
+    <script src="/assets/scripts/product.js"></script>
+</head>
+
+<body>
+    <ul class="breadcrumb">
+        <li><a href="/html/catalog.html">Catalogo</a></li>
+        <li><a href="/html/catalog.html">Categoria</a></li>
+        <li><a href="/html/catalog.html">SubCategoria</a></li>
+        <li><a href="/html/catalog.html">El Producto</a></li>
+    </ul>
+
+    <div class="product-row">
+        <div class="product-column">
+            <div class="product-image">
+                <svg preserveAspectRatio="xMidYMid meet" height="20%" width="20%" viewBox="0 0 500 386">
+                    <image width="500px" height="386px" href="/assets/svg/box.svg" />
+                </svg>
+            </div>
+        </div>
+        <div class="product-column">
+
+            <div class="product-title">
+                <p>Titulo de Producto</p>
+            </div>
+
+            <div class="product-autor">
+                <p>Por Diseñador1</p>
+            </div>
+
+            <div class="product-stars">
+                <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                    <image href="/assets/svg/rate-full.svg" />
+                </svg>
+                <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                    <image href="/assets/svg/rate-full.svg" />
+                </svg>
+                <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                    <image href="/assets/svg/rate-full.svg" />
+                </svg>
+                <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                    <image href="/assets/svg/rate-full.svg" />
+                </svg>
+                <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                    <image href="/assets/svg/rate-half.svg" />
+                </svg>
+            </div>
+            <div class="product-price">
+                <p>₡5000</p>
+            </div>
+        </div>
+        <div class="product-column">
+            <div class="cart-form">
+                <form method="GET" id="form-add-cart">
+                        <p>Talla</p>
+                        <input type="radio" id="S" name="talla" value="S">
+                        <label for="S">S</label>
+        
+                        <input type="radio" id="M" name="talla" value="M">
+                        <label for="M">M</label>
+        
+                        <input type="radio" id="L" name="talla" value="L">
+                        <label for="L">L</label>
+        
+                        <input type="radio" id="XL" name="talla" value="XL">
+                        <label for="XL">XL</label>
+        
+                        <input type="radio" id="XXL" name="talla" value="XXL">
+                        <label for="XXL">XXL</label>
+        
+                    <label for="quantity">Cantidad:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1" max="99" required pattern="\d+">
+        
+                    <input id="añadir" type="submit" value="Añadir al Carrito">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="product-description">
+            <h6>Acerca de este Producto:</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <section>
+            <details class="product-details">
+                <summary>Detalles</summary>
+                <ul>
+                    <li>
+                        Lorem ipsum
+                    </li>
+
+                    <li>
+                        Lorem ipsum
+                    </li>
+
+                    <li>
+                        Lorem ipsum
+                    </li>
+                </ul>
+            </details>
+
+            <details class="product-instructions">
+                <summary>Instrucciones</summary>
+                <ul>
+                    <li>
+                        Lorem ipsum
+                    </li>
+
+                    <li>
+                        Lorem ipsum
+                    </li>
+
+                    <li>
+                        Lorem ipsum
+                    </li>
+                </ul>
+            </details>
+        </section>
+    </main>
+
+    <dialog id="dialog">
+        <h6>Producto Añadido</h6>
+        <div class="svg-container">
+            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                <image href="/assets/svg/product-added.svg" />
+            </svg>
+        </div>
+        <p>El producto se ha añadido satisfactoriamente al carrito.</p>
+        <form method="GET" method="dialog">
+            <button id="cerrar-dialogo" autofocus>OK</button>
+        </form>
+    </dialog>
+
+</body>
+
+</html>

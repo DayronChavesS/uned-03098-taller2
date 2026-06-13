@@ -1,0 +1,83 @@
+<header>
+    <nav>
+        <div class="nav-left">
+            <div class="dropdown">
+                <button class="nav-text-button">
+                    Inicio
+                    <object data="expand_more.svg" type="image/svg+xml">
+                        <image src="/assets/svg/expand_more.svg" />
+                    </object>
+                </button>
+                <div class="dropdown-options">
+                    <a href="/index.html">Pagina Principal</a>
+                    <a href="/html/blog.html">Blog</a>
+                    <a href="/html/faq.html">Preguntas Frecuentes</a>
+                    <a href="/html/about.html">Acerca De</a>
+                    <a href="/html/legal.html">Legal</a>
+                    <a href="/html/contact.html">Contacto</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="nav-text-button">
+                    Tienda
+                    <object data="expand_more.svg" type="image/svg+xml">
+                        <image src="/assets/svg/expand_more.svg" />
+                    </object>
+                </button>
+                <div class="dropdown-options">
+                    <a href="/html/catalog.html">Catalogo</a>
+                    <a href="/html/estimate.html">Cotizacion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-center">
+            <div class="nav-hoverable">
+                <a href="/index.html">
+                    <object data="textlogo-white.svg" type="image/svg+xml">
+                        <image src="/assets/svg/textlogo-white.svg" />
+                    </object>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="dropdown">
+                <button class="nav-image-button">
+                    <object data="account_circle.svg" type="image/svg+xml">
+                        <image src="/assets/svg/account_circle.svg" />
+                    </object>
+                </button>
+                <div class="dropdown-options" id="cuenta-usuario">
+                    <a id="cuenta-opcion1" href="/html/singup.html">Crear Cuenta</a>
+                    <a id="cuenta-opcion2" href="/html/login.html">Iniciar Sesion</a>
+                </div>
+            </div>
+
+            <button class="nav-image-button">
+                <a href="/html/agenda.html" class="svg">
+                    <object data="add_circle.svg" type="image/svg+xml">
+                        <image src="/assets/svg/add_circle.svg" />
+                    </object>
+                </a>
+            </button>
+
+            <button class="nav-image-button">
+                <a href="/html/shopping-cart.html" class="svg">
+                    <object data="shopping_cart.svg" type="image/svg+xml">
+                        <image src="/assets/svg/shopping_cart.svg" />
+                    </object>
+                </a>
+            </button>
+
+            <button class="nav-image-button">
+                <a href="/html/language.html" class="svg">
+                    <object data="language.svg" type="image/svg+xml">
+                        <image src="/assets/svg/language.svg" />
+                    </object>
+                </a>
+            </button>
+        </div>
+    </nav>
+</header>

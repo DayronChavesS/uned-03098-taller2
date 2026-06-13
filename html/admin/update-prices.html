@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Actualizar Precio | PetPretty</title>
+    <link rel="icon" href="/../assets/icons/icon.svg" type=”image/svg+xml”>
+    <meta name="language" content="es-CR" />
+
+    <meta name="keywords" content="tienda" />
+    <meta name="author" content="Dayron Antony Chaves Sandoval" />
+    <meta name="description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="Distribution" content="Global" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="revisit-after" content="7 days" />
+
+    <meta property="og:locale" content="es-CR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PetPretty">
+    <meta property="og:description" content="Tienda de Mascotas">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:site_name" content="example.com">
+    <meta property="article:published_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="og:image" content="https://example.com/image/image.png">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="600">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tienda PetPretty" />
+    <meta name="twitter:description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="twitter:site" content="@example" />
+    <meta name="twitter:image" content="https://example.com/image/image.png" />
+    <meta name="twitter:creator" content="@example" />
+
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
+    <link rel="stylesheet" href="/assets/styles/header.css" />
+    <link rel="stylesheet" href="/assets/styles/forms.css" />
+    <link rel="stylesheet" href="/assets/styles/tables.css" />
+
+    <script src="/assets/scripts/main.js"></script>
+    <script src="/assets/scripts/header-footer.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <section class="form-info">
+            <h2>Actualizar Precios</h2>
+            <p>
+                En esta pagina puede actualizar los precios de PetPretty.
+            </p>
+        </section>
+    </main>
+
+    <section>
+        <h4>Precios Actuales</h4>
+        <table class="styled-table">
+            <thead >
+                <tr>
+                    <th>No. Item</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Informacion
+                    </td>
+                    <td>
+                        Informacion
+                    </td>
+                    <td>
+                        Informacion
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        
+        
+        <form method="GET" >
+            <fieldset>
+                <legend>Actualizar Precio</legend>
+
+                <label for="product">Seleccione el producto:</label>
+                <select name="product" id="product">
+                    <option value="product1">product1</option>
+                    <option value="product2">product2</option>
+                    <option value="product3">product3</option>
+                </select>
+                
+                <div>
+                <label for="price">Precio:</label>
+                <input type="text" id="price" name="price" required pattern="[0-9.]+" title="Solo numeros.">
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Aplicar Cambios">
+        </form>
+    </section>
+    
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+footer {
+    z-index: 1;
+}
+
+
+.lema {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+p.lema {
+    font-size: 1vw;
+    font-style: italic;
+    letter-spacing: 0.1vw;
+    line-height: 4vh;
+}
+
+.petpretty-logo>svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-row {
+    background-color: #a573ae;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-color: #7b007c;
+
+    border-style: solid;
+    border-width: 0.7vh;
+
+    padding-left: 0.7vh;
+    padding-right: 0.7vh;
+    padding-bottom: 0.7vh;
+    padding-top: 0.7vh;
+}
+
+.footer-column,
+.footer-column-border {
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+    height: 100%;
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.footer-column-border {
+    border-left: 1px solid;
+    border-color: #fef2fe;
+}
+
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lower-footer-row {
+    background-color: #7b007c;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 2vh;
+    padding-right: 0.7vh;
+    padding-bottom: 0.7vh;
+    padding-top: 0.7vh;
+}
+
+.lower-footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lower-footer-column {
+    display: table-cell;
+    vertical-align: top;
+    width: 25%;
+    height: 100%;
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.social-media-column>a>object>img {
+    width: 2.8vw;
+    height: auto;
+}
+
+.social-media-column {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 25%;
+    min-width: 315px;
+    height: 100%;
+    padding-left: 9vw;
+}
+
+.footer-column-border>ul {
+    display: block;
+    list-style-type: none;
+    line-height: 2.0;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.footer-column,
+.lower-footer-column,
+.footer-column-border>h6 {
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-column-border>ul>li>a:link,
+.lower-footer-column>a:link,
+.lower-footer-column > a {
+    font-size: 1vw;
+    color: white;
+}
+
+.footer-column-border>ul>li>a:visited,
+.lower-footer-column>a:visited {
+    font-size: 1vw;
+    color: #cdcdcd;
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Catalogo | PetPretty</title>
+    <link rel="icon" href="/assets/icons/icon.svg" type=”image/svg+xml”>
+    <meta name="language" content="es-CR" />
+
+    <meta name="keywords" content="tienda" />
+    <meta name="author" content="Dayron Antony Chaves Sandoval" />
+    <meta name="description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="Distribution" content="Global" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="revisit-after" content="7 days" />
+
+    <meta property="og:locale" content="es-CR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PetPretty">
+    <meta property="og:description" content="Tienda de Mascotas">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:site_name" content="example.com">
+    <meta property="article:published_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="og:image" content="https://example.com/image/image.png">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="600">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tienda PetPretty" />
+    <meta name="twitter:description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="twitter:site" content="@example" />
+    <meta name="twitter:image" content="https://example.com/image/image.png" />
+    <meta name="twitter:creator" content="@example" />
+
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
+    <link rel="stylesheet" href="/assets/styles/header.css" />
+    <link rel="stylesheet" href="/assets/styles/catalog.css" />
+
+    <script src="/assets/scripts/main.js"></script>
+    <script src="/assets/scripts/header-footer.js"></script>
+</head>
+
+<body>
+
+    <section class="controls">
+        <div class="title-box">
+            <p>Filtros</p>
+        </div>
+
+        <div class="search-box">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Buscar...">
+                <button type="submit" class="searchButton">
+                    <object data="search.svg" type="image/svg+xml">
+                        <image src="/assets/svg/search.svg" />
+                    </object>
+                </button>
+            </div>
+        </div>
+
+        <div class="order-box">
+            <div class="select">
+                <select name="order" id="order">
+                    <optgroup label="Nombre">
+                        <option value="design1">A-Z</option>
+                        <option value="design2">Z-A</option>
+                    </optgroup>
+                    <optgroup label="Precio">
+                        <option value="design4">Menor > Mayor</option>
+                        <option value="design5">Mayor > Menor</option>
+                    </optgroup>
+                    <optgroup label="Otros">
+                        <option value="design7">Mas Recientes</option>
+                        <option value="design8">Mas Populares</option>
+                        <option value="design9">Mejor Valorados</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <aside>
+            <details>
+                <summary>Categoria</summary>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Categoria</summary>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Categoria</summary>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Categoria</summary>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Categoria</summary>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="subcategoria" name="subcategoria" value="subcategoria">
+                        <label for="subcategoria">SubCategoria</label>
+                    </li>
+                </ul>
+            </details>
+        </aside>
+
+        <section class="products">
+
+            <div class="catalog-row">
+                <div class="catalog-column">
+                    <article>
+                        <div class="image-container">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 150">
+                                <image href="/assets/svg/box.svg" />
+                            </svg>
+                        </div>
+                        <p class="product-title"><a href="product.html">Un titulo de producto muy grande y descriptivo</a></p>
+                        <p class="product-description">Descripcion de producto</p>
+                        
+                        <div class="product-stars">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-half.svg" />
+                            </svg>
+                    </div>
+                        
+                        <p class="product-price">₡5000</p>
+
+                    <div class="product-properties">
+                        <ul>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/savings.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Descuento
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/person.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Vendedor
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet"viewBox="0 0 24 24">
+                                        <image href="/assets/svg/storefront.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Ubicación
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shipping.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Envio
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shield_heart.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Garantia
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                </div>
+                <div class="catalog-column">
+                    <article>
+                        <div class="image-container">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 150">
+                                <image href="/assets/svg/box.svg" />
+                            </svg>
+                        </div>
+                        <p class="product-title"><a href="product.html">Un titulo de producto muy grande y descriptivo</a></p>
+                        <p class="product-description">Descripcion de producto</p>
+                        
+                        <div class="product-stars">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-half.svg" />
+                            </svg>
+                    </div>
+                        
+                        <p class="product-price">₡5000</p>
+
+                    <div class="product-properties">
+                        <ul>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/savings.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Descuento
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/person.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Vendedor
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet"viewBox="0 0 24 24">
+                                        <image href="/assets/svg/storefront.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Ubicación
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shipping.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Envio
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shield_heart.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Garantia
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                </div>
+                <div class="catalog-column">
+                    <article>
+                        <div class="image-container">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 150">
+                                <image href="/assets/svg/box.svg" />
+                            </svg>
+                        </div>
+                        <p class="product-title"><a href="product.html">Un titulo de producto muy grande y descriptivo</a></p>
+                        <p class="product-description">Descripcion de producto</p>
+                        
+                        <div class="product-stars">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-half.svg" />
+                            </svg>
+                    </div>
+                        
+                        <p class="product-price">₡5000</p>
+
+                    <div class="product-properties">
+                        <ul>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/savings.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Descuento
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/person.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Vendedor
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet"viewBox="0 0 24 24">
+                                        <image href="/assets/svg/storefront.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Ubicación
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shipping.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Envio
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shield_heart.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Garantia
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                </div>
+                <div class="catalog-column">
+                    <article>
+                        <div class="image-container">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 150">
+                                <image href="/assets/svg/box.svg" />
+                            </svg>
+                        </div>
+                        <p class="product-title"><a href="product.html">Un titulo de producto muy grande y descriptivo</a></p>
+                        <p class="product-description">Descripcion de producto</p>
+                        
+                        <div class="product-stars">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-half.svg" />
+                            </svg>
+                    </div>
+                        
+                        <p class="product-price">₡5000</p>
+
+                    <div class="product-properties">
+                        <ul>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/savings.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Descuento
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/person.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Vendedor
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet"viewBox="0 0 24 24">
+                                        <image href="/assets/svg/storefront.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Ubicación
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shipping.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Envio
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shield_heart.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Garantia
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="catalog-row">
+                <div class="catalog-column">
+                    <article>
+                        <div class="image-container">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 200 150">
+                                <image href="/assets/svg/box.svg" />
+                            </svg>
+                        </div>
+                        <p class="product-title"><a href="product.html">Un titulo de producto muy grande y descriptivo</a></p>
+                        <p class="product-description">Descripcion de producto</p>
+                        
+                        <div class="product-stars">
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-full.svg" />
+                            </svg>
+
+                            <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+                                <image href="/assets/svg/rate-half.svg" />
+                            </svg>
+                    </div>
+                        
+                        <p class="product-price">₡5000</p>
+
+                    <div class="product-properties">
+                        <ul>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/savings.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Descuento
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/person.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Vendedor
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet"viewBox="0 0 24 24">
+                                        <image href="/assets/svg/storefront.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Ubicación
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shipping.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Envio
+                                </a>
+                            </li>
+                            <li>
+                                    <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                        <image href="/assets/svg/shield_heart.svg" />
+                                    </svg>
+                                <a>
+                                    Info. Garantia
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="pagination-container">
+            <div class="pagination">
+                <a class="previous-page" href="#">&laquo; Anterior</a>
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a class="next-page" href="#"> Siguiente &raquo;</a>
+              </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

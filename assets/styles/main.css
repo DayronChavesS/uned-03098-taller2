@@ -1,0 +1,146 @@
+/*
+Este CSS aplica apariencia que es uniforme en todas las paginas del sitio.
+*/
+
+/*** CUSTOM SCROLLBAR ***/
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fef2fe;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7b007c;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7b007c;
+  } 
+
+body {
+    background-color: #fef2fe;
+    color: #454545;
+    font-family: "Open Sans", Arial;
+    font-size: 1vw;
+    margin: 2em 0em 0em 0em;
+    padding: 0em;
+    line-height: 1.4;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+a:link {
+    color: #07A;
+}
+
+a:visited {
+    color: #941352;
+}
+
+span.citneed {
+    vertical-align: top;
+    font-size: 1vw;
+    padding-left: 0.3em;
+}
+
+small {
+    font-size: 0.5vw;
+}
+
+p.st {
+    margin-top: -1em;
+}
+
+#fancyPositioning::after  {
+    margin-bottom: 2em;
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#tleft {
+    float: left;
+    width: 55%;
+}
+
+#tleft > p:first-child {
+    margin-top: 0;
+}
+
+#picture-left {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+#picture-left > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    width: 50%;
+    height: auto;    
+    border-radius: 50%;
+}
+
+ul {
+    li {
+        img {
+            height: 1em;
+        }
+    }
+}
+
+blockquote > cite > p {
+    font-size: 1.5vw;
+    color: #456;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+blockquote > span{
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+blockquote::before{
+    font-family: "Times New Roman", Times, Arial;
+    color: #666;
+    content: open-quote;
+    font-size: 2vw;
+    font-weight: 600;
+    float: left;
+    margin-top: 0em;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+}
+
+blockquote::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figcaption {
+    display: block;
+    clear: both;
+    font-size: 0.2vw !important;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+
+figcaption::before {
+    content: "- ";
+    margin-right: 1em;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Iniciar Sesion | PetPretty</title>
+    <link rel="icon" href="/assets/icons/icon.svg" type=”image/svg+xml”>
+    <meta name="language" content="es-CR" />
+
+    <meta name="keywords" content="tienda" />
+    <meta name="author" content="Dayron Antony Chaves Sandoval" />
+    <meta name="description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="Distribution" content="Global" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="revisit-after" content="7 days" />
+
+    <meta property="og:locale" content="es-CR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="PetPretty">
+    <meta property="og:description" content="Tienda de Mascotas">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:site_name" content="example.com">
+    <meta property="article:published_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2000-01-01T00:00:00+00:00">
+    <meta property="og:image" content="https://example.com/image/image.png">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="600">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tienda PetPretty" />
+    <meta name="twitter:description" content="Prototipo de Pagina Web en HTML5" />
+    <meta name="twitter:site" content="@example" />
+    <meta name="twitter:image" content="https://example.com/image/image.png" />
+    <meta name="twitter:creator" content="@example" />
+
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
+    <link rel="stylesheet" href="/assets/styles/header.css" />
+    <link rel="stylesheet" href="/assets/styles/forms.css" />
+
+    <script src="/assets/scripts/header-footer.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+    <script src="/assets/scripts/login.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <section class="form-info">
+            <h2>Iniciar Sesión</h2>
+            <p>Ingrese su nombre de usuario y contraseña para continuar.</p>
+            
+        </section>
+    </main>
+    
+    <section>
+    <form method="GET" id="formInicioSesion">
+        <label for="user">Usuario:</label>
+        <input type="text" id="user" name="user" required>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required minlength="8" maxlength="36">
+        
+        <input id="ingresar" type="submit" value="Ingresar">
+    </form>
+</section>
+
+</body>
+
+</html>

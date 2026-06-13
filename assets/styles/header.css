@@ -1,0 +1,144 @@
+
+nav {
+    background-color: #7b007c;
+    border-radius: 2vw;
+    margin: 2vw 2vw 2vw 2vw;
+    padding: 1%;
+    min-width: 682px;
+}
+
+.nav-left,
+.nav-right,
+.nav-center {
+    display: table-cell;
+    vertical-align:middle;
+}
+
+.nav-left {
+    text-align: left;
+    width: 33vw;
+    min-width: 217px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.nav-right {
+    text-align: right;
+    width: 33vw;
+    min-width: 217px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.nav-center {
+    text-align: center;
+    width: 33vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-text-button {
+    height: fit-content;
+    width: 8vw;
+    min-width: 95px;
+
+    border: none;
+
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-family: "Tovari Sans";
+    src: url("assets/fonts/TovariSans.ttf");
+    font-size: 2vw;
+
+    cursor: pointer;
+    background-color: #7b007c;
+}
+
+.nav-text-button:hover {
+    border-radius: 0.3vw;
+    background-color: #a10aa1;
+}
+
+.nav-image-button {
+    display: inline-block;
+
+    width: 4vw;
+    min-width: 47px;
+    height: auto;
+
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: #7b007c;
+}
+
+.nav-image-button > a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 20%;
+    margin: -20%;
+ }
+
+.nav-image-button > object > img,
+.nav-image-button > a > object > img
+ {
+    width: 3vw;
+    height: auto;
+}
+
+.nav-text-button > object > img{
+    vertical-align: middle;
+    width: 1.6vw;
+    height: auto;
+}
+
+.nav-hoverable > a > object > img{
+    height: auto;
+    width: 12vw;
+}
+
+.nav-hoverable {
+    display: inline;
+}
+
+
+.nav-image-button:hover {
+    background-color: #a10aa1;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: #7b007c;
+    border-radius: 1vw;
+}
+
+.dropdown:hover .dropdown-options {
+    z-index: 1;
+    display: block;
+    border-radius: 1vw;
+}
+
+.dropdown-options > a {
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+    color: white;
+    padding: 1.5vw 1.5vw;
+    text-decoration: none;
+}
+
+.dropdown-options > a:link:hover {
+    color: white;
+    background-color: #a10aa1;
+    border-radius: 1vw;
+}
